@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Challenge 1</title>
+</head>
+
+<body>
+    <main class="principal">
+        <header>
+            <h1><a href="index.html"> <img class="logo" src="img/logo.png" alt="logo" ></a></h1>	
+            <p id="name">Alura Latam  G2-Challenge1</p>
+        </header>
+        
+        <section>
+            <textarea type="text" class="input-text" cols="40" rows="10"
+            placeholder="Ingrese el texto aquí" ></textarea>
+             <p id="mensaje"> <img src="./img/exclamacion.svg" alt=""> Solo letras minusculas y sin acentos</p>
+            
+             <div>
+                <button type="button" id="btnencriptar"  onclick="btnEncriptar()">Encriptar</button>
+                <button type="button" id="btndesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+    
+        <section id="salida">
+            <button id="btncopiar" onclick="copiartext()">Copiar</button>
+            <p id="mensaje1">Ningún mensaje fue encontrado </p>
+            <p id="mensaje2">Ingrese el texto que deseas  encriptar o desencriptar </p>
+            <h2><img  id="mano" src="img/mano.png" alt="mano"></h2>
+            <textarea type="text" class="input-area" cols="18" rows="8" > </textarea>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Olga Patricia Bernal Arias - 2022  <a href="https://www.linkedin.com/in/patricia-bernal-4a678b101/"><img src="./img/Linkedin.svg"></a>  </p>
+    </footer>
+<script src="app.js"></script>    
+</body>
+</html>
+
+
+
